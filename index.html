@@ -9,6 +9,141 @@
 
   <title>Frontend Mentor | Results summary component</title>
 
+<style>
+:root {
+  --paleBlue: hsl(225, 100%, 94%);
+  --brightBlue: hsl(245, 75%, 52%);
+  --veryPaleBlue: hsl(225, 100%, 98%);
+  --desaturatedBlue: hsl(224, 23%, 55%);
+  --darkBlue2: hsl(223, 47%, 23%);
+}
+body {
+  font-family: 'Red Hat Display', 'Outfit', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  margin: 0;
+  align-items: center;
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  /*background-color: var(--paleBlue);*/
+  background-image: url("https://github.com/kingster852/ex2/raw/main/docs/assets/pattern-background-desktop.svg");
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: center;
+  background-color: var(--paleBlue);
+  
+}
+h3 {
+  color: var(--darkBlue2);
+  border: 1px solid;
+  padding: 10px;
+  margin: 0px;
+  font-weight: 900;
+}
+p {
+  color: var(--desaturatedBlue);
+  font-size: 12px;
+  border: 1px solid;
+  width: 220px;
+  padding: 15px;
+  margin: 0px;
+}
+.bold {
+  font-weight: 700;
+}
+.veryBold {
+  font-weight: 900;
+}
+.frame {
+  width: 300px;
+  height: auto;
+  background-color: white;
+  border-radius: 15px;
+  /*border: 1px solid;*/
+  padding: 0px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /*justify-content: center;
+  text-align: center;*/
+}
+.option1 {
+  display: flex;
+  background-color: var(--veryPaleBlue);
+  width: 220px;
+  border-radius: 15px;
+  align-items: center;
+  padding: 5px;
+  justify-content: space-evenly;
+  /*border: 1px solid;*/
+}
+.option1-1{
+  /*border: 1px solid;*/
+  display: flex;
+  align-items: center;
+}
+.option1-1-1{
+  /*border: 1px solid;*/
+}
+.option1-1-2-1{
+  /*border: 1px solid;*/
+  /*background-color: var(--paleBlue);*/
+  color: var(--darkBlue2);
+  font-size: 12px;
+  margin: 5px;
+}
+.option1-1-2-2{
+  /*border: 1px solid;*/
+  /*background-color: var(--brightBlue);*/
+  color: var(--desaturatedBlue);
+  font-size: 12px;
+  margin: 5px;
+}
+.option1-2{
+  /*border: 1px solid;*/
+  display: flex;
+  align-content: center;
+  /*background-color: var(--darkBlue2);*/
+}
+a {
+  color: blue; /* Specify the desired color for visited links */
+  text-decoration: none; /* Remove underline or other decorations */
+}
+a:visited {
+  color: blue; /* Specify the desired color for visited links */
+  text-decoration: none; /* Remove underline or other decorations */
+}
+.image1 {
+  max-width: 300px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+.image2 {
+  width: auto;
+  height: 50px;
+}
+.text1 {
+  /*border: 1px solid;*/
+  width: 220px;
+  border-radius: 15px;
+  background-color: var(--brightBlue);
+  padding: 15px;
+  color: white;
+  box-shadow: 0 30px 10px 5px rgba(0,0,0,0.3);
+}
+.text2 {
+  /*border: 1px solid;*/
+  /*background-color: var(--veryPaleBlue);*/
+  width: 220px;
+  padding: 15px;
+}
+</style>
+
 </head>
 <body>
     <div class="frame">
