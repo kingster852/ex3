@@ -10,6 +10,9 @@ fetch('./data.json')
     const Visual = document.getElementById("Visual");
     
     
+    console.log("data");
+    
+    
     Reaction.textContent = "yoyoyo";
     Memory.textContent = "yoyoyo";
     Verbal.textContent = "yoyoyo";
