@@ -3,7 +3,7 @@ fetch('./data.json')
   .then(data => {
     // Process the JSON data
     console.log(data);
-    console.log("check");
+    console.log("check2");
     const lightRed = document.getElementById("lightRed");
     lightRed.innerHtml = "yoyoyo";
   })
