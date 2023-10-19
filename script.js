@@ -4,8 +4,8 @@ fetch('./data.json')
     // Process the JSON data
     console.log(data);
     console.log("check2");
-    const lightRed = document.getElementById("lightRed");
-    lightRed.innerHtml = "yoyoyo";
+    const Reaction = document.getElementById("Reaction");
+    Reaction.textContent = "yoyoyo";
   })
   .catch(error => {
     // Handle any errors
