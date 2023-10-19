@@ -5,6 +5,11 @@ fetch('./data.json')
     console.log(data);
     console.log("check2");
     const Reaction = document.getElementById("Reaction");
+    const Memory = document.getElementById("Memory");
+    const Verbal = document.getElementById("Verbal");
+    const Visual = document.getElementById("Visual");
+    
+    
     Reaction.textContent = "yoyoyo";
   })
   .catch(error => {
