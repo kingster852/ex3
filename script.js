@@ -1,6 +1,6 @@
 fetch('./data.json')
   .then(response => response.json())
-  .then(data => {
+  .then(jsonData => {
     // Process the JSON data
     console.log(data);
     console.log("check2");
@@ -9,6 +9,11 @@ fetch('./data.json')
     const Verbal = document.getElementById("Verbal");
     const Visual = document.getElementById("Visual");
     
+    
+    jsonData.forEach(item => {
+      console.log(item.category);
+    });
+  
     
     console.log("data");
     
