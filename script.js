@@ -3,6 +3,7 @@ fetch('./data.json')
   .then(data => {
     // Process the JSON data
     console.log(data);
+    console.log("check");
   })
   .catch(error => {
     // Handle any errors
