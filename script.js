@@ -11,6 +11,11 @@ fetch('./data.json')
     
     
     Reaction.textContent = "yoyoyo";
+    Memory.textContent = "yoyoyo";
+    Verbal.textContent = "yoyoyo";
+    Visual.textContent = "yoyoyo";
+    
+    
   })
   .catch(error => {
     // Handle any errors
