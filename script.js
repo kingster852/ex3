@@ -12,13 +12,22 @@ fetch('./data.json')
     
     jsonData.forEach(item => {
       console.log(item.category);
+      if (item.category = "Reaction") {
+        Reaction.textContent = "${item.score}"
+      } else if (item.category = "Memory") {
+        Memory.textContent = "${item.score}"
+      } else if (item.category = "Verbal") {
+        Verbal.textContent = "${item.score}"
+      } else {
+        Visual.textContent = "${item.score}"
+      }
     });
   
     
     console.log("data");
     
     
-    Reaction.textContent = "yoyoyo";
+    Reaction.textContent = "yo";
     Memory.textContent = "yoyoyo";
     Verbal.textContent = "yoyoyo";
     Visual.textContent = "yoyoyo";
