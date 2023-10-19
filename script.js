@@ -2,7 +2,7 @@ fetch('./data.json')
   .then(response => response.json())
   .then(jsonData => {
     // Process the JSON data
-    console.log(data);
+    console.log(jsonData);
     console.log("check2");
     const Reaction = document.getElementById("Reaction");
     const Memory = document.getElementById("Memory");
