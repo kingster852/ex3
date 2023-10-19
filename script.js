@@ -1,4 +1,4 @@
-fetch('https://github.com/kingster852/ex3/raw/main/data.json')
+fetch('./data.json')
   .then(response => response.json())
   .then(data => {
     // Process the JSON data
