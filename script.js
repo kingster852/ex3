@@ -27,13 +27,13 @@ fetch('./data.json')
     });
   
     
-    console.log("data");
+    console.log("done");
     
     
-    Reaction.textContent = "yo";
-    Memory.textContent = "yoyoyo";
-    Verbal.textContent = "yoyoyo";
-    Visual.textContent = "yoyoyo";
+    //Reaction.textContent = "yo";
+    //Memory.textContent = "yoyoyo";
+    //Verbal.textContent = "yoyoyo";
+    //Visual.textContent = "yoyoyo";
     
     
   })
