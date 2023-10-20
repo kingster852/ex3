@@ -11,10 +11,6 @@ fetch('./data.json')
     
     
     jsonData.forEach(item => {
-      //console.log(item.category);
-      //console.log(item.score);
-      //console.log(item.icon);
-      
       if (item.category == "Reaction") {
         Reaction.textContent = 'yy${item.score}';
         console.log(item.category);
