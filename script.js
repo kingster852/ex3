@@ -15,13 +15,13 @@ fetch('./data.json')
       //console.log(item.score);
       //console.log(item.icon);
       
-      if (item.category = "Memory") {
+      if (item.category == "Memory") {
         Memory.textContent = "${item.score}";
         console.log(item.category);
-      } else if (item.category = "Reaction") {
+      } else if (item.category == "Reaction") {
         Reaction.textContent = "${item.score}";
         console.log(item.category);
-      } else if (item.category = "Verbal") {
+      } else if (item.category == "Verbal") {
         Verbal.textContent = "${item.score}";
         console.log(item.category);
       } else {
