@@ -16,16 +16,16 @@ fetch('./data.json')
       //console.log(item.icon);
       
       if (item.category == "Memory") {
-        Memory.textContent = "x${item.score}";
+        Memory.textContent = '${item.score}';
         console.log(item.category);
       } else if (item.category == "Reaction") {
-        Reaction.textContent = "x${item.score}";
+        Reaction.textContent = '${item.score}';
         console.log(item.category);
       } else if (item.category == "Verbal") {
-        Verbal.textContent = "x${item.score}";
+        Verbal.textContent = '${item.score}';
         console.log(item.category);
       } else {
-        Visual.textContent = "x${item.score}";
+        Visual.textContent = '${item.score}';
         console.log(item.category);
       }
       
