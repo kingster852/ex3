@@ -11,6 +11,10 @@ fetch('./data.json')
     
     
     jsonData.forEach(item => {
+      
+      Reaction.textContent = 'yy${item.score}';
+      
+      /*
       if (item.category == "Reaction") {
         Reaction.textContent = 'yy${item.score}';
         console.log(item.category);
@@ -24,7 +28,7 @@ fetch('./data.json')
         Visual.textContent = '${item.score}';
         console.log(item.category);
       }
-      
+      */
       
     });
   
