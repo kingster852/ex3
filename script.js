@@ -20,7 +20,7 @@ fetch('./data.json')
         console.log(item.category);
         console.log(item.score);
       } else if (item.category == "Memory") {
-        Memory.textContent = `yy${item.score}uu`;
+        Memory.textContent = `${item.score}`;
         console.log(item.category);
         console.log(item.score);
       } else if (item.category == "Verbal") {
