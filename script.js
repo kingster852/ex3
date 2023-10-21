@@ -32,7 +32,7 @@ fetch('./data.json')
         console.log(item.category);
         console.log(item.score);
       }
-      */
+      
       
     });
   
