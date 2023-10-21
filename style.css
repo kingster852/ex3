@@ -1,5 +1,5 @@
 :root {
---lightRed: hsla(50%, 100%, 67%,100%);
+--lightRed: hsla(0, 100%, 67%,100%);
 --orangeyYellow: hsla(39, 100%, 56%, 100%);
 --greenTeal: hsla(166, 100%, 37%, 100%);
 --cobaltBlue: hsla(234, 85%, 45%, 100%);
@@ -11,4 +11,260 @@
 --paleBlue: hsl(221, 100%, 96%);
 --lightLavender: hsl(241, 100%, 89%);
 --darkGrayBlue: hsl(224, 30%, 27%);
+}
+body {
+  font-size: 18px;
+  font-family: 'Hanken Grotesk', sans-serif;
+  font-weight: 900;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+
+.text1 {
+  /*border: 1px solid lightgray;*/
+  color: var(--lightLavender);
+  font-weight: bold;
+}
+.circle1 {
+  /*border: 1px solid lightgray;*/
+  width: 150px; /* Adjust the width and height to your desired size */
+  height: 150px;
+  border-radius: 50%; /* Makes the element circular */
+  background: linear-gradient(to bottom, var(--violetBlue), var(--persianBlue));
+  /*padding: auto;*/
+  display: flex;
+  flex-direction: column;
+  /*text-align: center;*/
+  justify-content: center;
+  align-items: center;
+  /*vertical-align: middle;*/
+  margin: 20px;
+  color: var(--paleBlue);
+}
+.text2 {
+  font-weight: 900;
+  font-size: 60px;
+  color: white;
+}
+.text3 {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+  /*border: 1px solid lightgray;*/
+  color: var(--lightLavender);
+}
+.text4 {
+  font-size: 30px;
+  font-weight: 900;
+  /*border: 1px solid lightgray;*/
+  /*margin: 20px;*/
+}
+.text5 {
+  /*border: 1px solid lightgray;*/
+  text-align: center;
+  color: var(--lightLavender);
+  font-size: 18px;
+  font-weight: 500;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  /*padding: 10px;*/
+}
+.text6 {
+  border: 1px solid white;
+  display: flex;
+  text-align = left;
+  margin: 10px;
+}
+.text7 {
+  /*border: 1px solid gray;*/
+  padding: 5px;
+}
+.text8 {
+  /*border: 1px solid white;*/
+  padding-right: 10px;
+  color: var(--darkGrayBlue);
+}
+.text9 {
+  /*border: 1px solid white;*/
+  color: gray;/*var(--paleBlue);*/
+}
+.text10 {
+  /*border: 1px solid blue;*/
+  border-radius: 30px;
+  padding: 15px;
+  margin-top: 10px;
+  background-color: var(--darkGrayBlue);
+  color: white;
+}
+.text10:hover {
+  background-color: var(--violetBlue); 
+}
+.box1 {
+  
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /*text-align: auto;*/
+  /*border: 1px solid gray;*/
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  /*align-items: center;*/
+  /*justify-items: center;*/
+  
+  
+}
+.lightRed {
+  background-color: hsla(0, 100%, 67%, 10%);
+  color: var(--lightRed);
+}
+.orangeyYellow {
+  background-color: hsla(39, 100%, 56%, 10%);
+  color: var(--orangeyYellow);
+}
+.cobaltBlue {
+  background-color: hsla(166, 100%, 37%, 10%);
+  color: var(--cobaltBlue);
+}
+.greenTeal {
+  background-color: hsla(234, 85%, 45%, 10%);
+  color: var(--greenTeal);
+}
+
+.box1-1 {
+  /*width: 100px;*/
+  /*border: 1px solid gray;*/
+  /*background-color: blue;*/
+  display: flex;
+  flex-direction: row;
+  /*align-self: flex-start;*/
+  /*align-items: center;*/
+}
+.box1-2 {
+  /*width: 100px;*/
+  /*border: 1px solid gray;*/
+  /*background-color: blue;*/
+  display: flex;
+  flex-direction: row;
+  text-align: right middle;
+  justify-content: flex-end;
+  /*align-self: flex-end;*/
+  align-items: center;
+}
+.box1-3 {
+  width: 200px;
+  border: 1px solid black;
+}
+.icon1 {
+  /*border: 1px solid gray;*/
+}
+
+/*before media query*/
+.container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /*height: 600px; /* Set the desired height for the container */
+  border-radius: 30px;
+  /*border: 1px solid black;*/
+  box-shadow: 30px 30px 10px 5px rgba(0,0,0,0.3);
+}
+
+.content {
+  width: 260px; /* Adjust the width */
+  height: 420px; /* Adjust the height */
+  /*position: absolute;*/
+  /*top: 150px; /* Adjust the top position */
+  /*left: 50%; /* Adjust the left position */
+  /*transform: translateX(-50%);*/
+  border-radius: 30px;
+  /*border: 1px solid blue;*/
+  padding: 20px;
+  /*border: 1px solid blue;*/
+  display: flex;
+  flex-direction: column;
+  /*justify-content: center;*/
+  align-item: center;
+  text-align: center;
+  /*box-shadow: 30px 30px 10px 5px rgba(0,0,0,0.3);*/
+  background: white;
+}
+.overlay {
+  /*position: absolute;*/
+  /*top: 0px; /* Adjust the top position */
+  /*left: 50%; /* Adjust the left position */
+  /*transform: translateX(-50%);*/  
+  background: linear-gradient(to bottom, hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+  width: 260px; /* Adjust the width */
+  height: 420px; /* Adjust the height */
+  /*background-color: rgba(0, 0, 0, 0.5);*/
+  color: white;
+  padding: 20px;
+  
+  border-radius: 30px;
+  /*box-shadow: 30px 30px 10px 5px rgba(0,0,0,0.3);*/
+
+}
+
+.overlay-content {
+  height: 100%;
+  /*border: 1px solid blue;*/
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+@media (max-width: 550px) {
+  /* CSS rules to apply when the viewport is 600px or narrower */
+  body {
+    display: inline;
+  }
+.container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  /*align-items: center;*/
+  justify-content: center;
+  /*height: 600px; /* Set the desired height for the container */
+  /*border: 1px solid black;*/
+  margin: 0px;
+  box-shadow: none;
+}
+
+.overlay {
+  z-index: 2;
+  position: absolute;  
+  top: -80px; /* Adjust the top position */
+  left: 50%; /* Adjust the left position */
+  height: 330px;
+  transform: translateX(-50%);
+  /*display: none;*/
+  box-shadow: none;
+
+}
+
+/*.overlay-content {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  /*align-items: center;
+  justify-content: center;
+}*/
+  
+.content {
+  z-index: 1;
+  position: absolute;
+  top: 280px; /* Adjust the top position */
+  /*top: 350px;*/
+  left: 50%; /* Adjust the left position */
+  transform: translateX(-50%);
+  box-shadow: none;
 }
