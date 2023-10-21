@@ -18,15 +18,19 @@ fetch('./data.json')
       if (item.category == "Reaction") {
         Reaction.textContent = `${item.score}`;
         console.log(item.category);
+        console.log(item.score);
       } else if (item.category == "Memory") {
         Memory.textContent = `yy${item.score}uu`;
         console.log(item.category);
+        console.log(item.score);
       } else if (item.category == "Verbal") {
         Verbal.textContent = item.score;
         console.log(item.category);
+        console.log(item.score);
       } else {
         Visual.textContent = `${item.score}`;
         console.log(item.category);
+        console.log(item.score);
       }
       */
       
